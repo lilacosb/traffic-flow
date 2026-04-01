@@ -1,6 +1,6 @@
 # Traffic Flow
 
-A collection of microscopic traffic flow simulations built using Python, NumPy and Matplotlib. We can visualise live vehicle behaviour and traffic throughput across various road networks.
+A collection of microscopic traffic flow simulations built using Python. We can visualise live vehicle behaviour and traffic throughput across various road networks.
 
 ## Project overview
 
@@ -23,3 +23,8 @@ Each simulation inclues a live visual representation of the road network alongsi
 ### 3. Ring road dynamics
 * **'closed loop track.py'**
   Simulates a single-lane ring road (visualised as a straight track with looping) where the number of vehicles gradually increases so it transitions from a state of free flow to congestion. (Influenced by an experiment conducted: https://iopscience.iop.org/article/10.1088/1367-2630/10/3/033001.)
+
+## System Requirements
+This has been tested with Python 3.12 and requires the following Python packages:
+
+* matplotlib, numpy
